@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python test / local files
+*.pyc
+*.pyo
+
+# ML local artifacts
+*.joblib
+*.pkl
+
+# Local uploaded/test resumes
+ml/test_files/
+ml/uploads/

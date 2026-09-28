@@ -1,0 +1,73 @@
+{
+  "python": [
+    "python",
+    "python3"
+  ],
+  "javascript": [
+    "javascript",
+    "js"
+  ],
+  "java": [
+    "java"
+  ],
+  "react": [
+    "react",
+    "react.js",
+    "reactjs"
+  ],
+  "node.js": [
+    "node.js",
+    "nodejs",
+    "node"
+  ],
+  "express.js": [
+    "express",
+    "express.js",
+    "expressjs"
+  ],
+  "mongodb": [
+    "mongodb",
+    "mongo db",
+    "mongo"
+  ],
+  "sql": [
+    "sql",
+    "structured query language"
+  ],
+  "html": [
+    "html",
+    "html5"
+  ],
+  "css": [
+    "css",
+    "css3"
+  ],
+  "git": [
+    "git",
+    "git version control"
+  ],
+  "github": [
+    "github",
+    "git hub"
+  ],
+  "docker": [
+    "docker",
+    "docker containers"
+  ],
+  "aws": [
+    "aws",
+    "amazon web services"
+  ],
+  "azure": [
+    "azure",
+    "microsoft azure"
+  ],
+  "machine learning": [
+    "machine learning",
+    "ml"
+  ],
+  "natural language processing": [
+    "natural language processing",
+    "nlp"
+  ]
+}
