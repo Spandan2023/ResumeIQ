@@ -1,9 +1,7 @@
 import api from "./api.js";
-
 // ----------------------------------
 // Login with email and password
 // ----------------------------------
-
 const login = async ({ email, password }) => {
   const response = await api.post("/auth/login", {
     email,
@@ -12,16 +10,11 @@ const login = async ({ email, password }) => {
 
   return response.data;
 };
-
 // ----------------------------------
 // Signup with email and password
 // ----------------------------------
 
-const signup = async ({
-  name,
-  email,
-  password,
-}) => {
+const signup = async ({ name, email, password }) => {
   const response = await api.post("/auth/signup", {
     name,
     email,
@@ -36,12 +29,9 @@ const signup = async ({
 // ----------------------------------
 
 const googleLogin = async (credential) => {
-  const response = await api.post(
-    "/auth/google",
-    {
-      credential,
-    }
-  );
+  const response = await api.post("/auth/google", {
+    credential,
+  });
 
   return response.data;
 };
@@ -51,9 +41,7 @@ const googleLogin = async (credential) => {
 // ----------------------------------
 
 const logout = async () => {
-  const response = await api.post(
-    "/auth/logout"
-  );
+  const response = await api.post("/auth/logout");
 
   return response.data;
 };
@@ -63,9 +51,7 @@ const logout = async () => {
 // ----------------------------------
 
 const getCurrentUser = async () => {
-  const response = await api.get(
-    "/auth/me"
-  );
+  const response = await api.get("/auth/me");
 
   return response.data;
 };
@@ -81,3 +67,5 @@ export {
   logout,
   getCurrentUser,
 };
+
+
